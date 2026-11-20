@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Swathi R — Résumé</title>
+<style>
+@page{size:A4;margin:0}
+*{box-sizing:border-box}
+body{margin:0;background:#e9e6e1;color:#1d1a17;font:10pt/1.45 "Segoe UI",Calibri,Arial,sans-serif}
+.page{width:210mm;min-height:297mm;margin:16px auto;background:#fff;padding:14mm 15mm;box-shadow:0 2px 16px rgba(0,0,0,.15)}
+h1{font-size:25pt;margin:0;letter-spacing:-.02em;line-height:1.1}
+.role{font-size:11.5pt;color:#0f766e;font-weight:600;margin:3px 0 6px}
+.contact{font-size:9pt;color:#444;display:flex;flex-wrap:wrap;gap:4px 14px}
+.contact a{color:inherit;text-decoration:none}
+h2{font-size:9.5pt;letter-spacing:.14em;text-transform:uppercase;color:#0f766e;border-bottom:1.5px solid #0f766e;padding-bottom:2px;margin:13px 0 6px}
+p{margin:0 0 4px}
+.row{display:flex;justify-content:space-between;gap:12px;align-items:baseline;margin-top:7px}
+.row b{font-size:10.5pt}
+.row .d{font-size:9pt;color:#555;white-space:nowrap}
+.co{color:#0f766e;font-weight:600}
+ul{margin:3px 0 0;padding-left:15px}
+li{margin-bottom:1.5px}
+.skills div{margin-bottom:2px}
+.skills b{display:inline-block;min-width:112px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:0 18px}
+.proj{margin-top:6px}
+.proj b{font-size:10pt}
+.proj i{color:#555;font-size:8.8pt}
+.nb{break-inside:avoid}
+.bar{position:sticky;top:0;background:#14120f;color:#fff;padding:10px 16px;display:flex;gap:12px;align-items:center;justify-content:center;font-size:14px}
+.bar button{background:#5eead4;border:0;border-radius:8px;padding:8px 16px;font-weight:700;cursor:pointer}
+@media print{
+  body{background:#fff}
+  .bar{display:none}
+  .page{margin:0;box-shadow:none;width:auto;min-height:0;padding:12mm 14mm}
+  .page+.page{break-before:page}
+}
+</style>
+</head>
+<body>
+<div class="bar">Print this page and choose “Save as PDF” (margins: none, background graphics: on).<button onclick="print()">Save as PDF</button></div>
+
+<div class="page">
+  <h1>Swathi R</h1>
+  <div class="role">Software Engineer — Flutter, Android &amp; Web</div>
+  <div class="contact">
+    <a href="mailto:swathirandillath0@gmail.com">swathirandillath0@gmail.com</a>
+    <span>+91 99959 60286</span>
+    <span>Kochi, Kerala, India</span>
+    <span>LinkedIn: <!-- add URL --></span>
+  </div>
+
+  <h2>Summary</h2>
+  <p>Flutter and Android engineer with 4 years of experience shipping cross-platform and native mobile apps used in logistics, e-commerce and enterprise sales. Strong in clean architecture (BLoC, Provider, Stacked), Firebase, REST APIs and payment integrations; also builds responsive web interfaces with React, Next.js and Tailwind CSS. Works directly with clients to turn requirements into scalable products, and leads Agile delivery from planning through store release.</p>
+
+  <h2>Experience</h2>
+  <div class="nb">
+    <div class="row"><span><b>Software Engineer, Flutter &amp; Android</b> · <span class="co">Fegno Technologies</span></span><span class="d">Jun 2023 – Present · Kochi</span></div>
+    <ul>
+      <li>Led design and delivery of <b>15+ Flutter apps</b> (iOS &amp; Android) with a <b>4.5★</b> average store rating.</li>
+      <li>Architected scalable codebases with Provider, BLoC and Stacked; integrated Google Maps, Gemini API and multiple payment gateways.</li>
+      <li>Ran requirement-gathering and scoping directly with clients, keeping design, build and deployment aligned.</li>
+      <li>Managed the Agile team: sprint planning, code reviews and stand-ups for on-time, high-quality releases.</li>
+      <li>Improved app performance by <b>15%</b> through custom widgets and runtime optimisation; raised e-commerce checkout conversion by <b>40%</b>.</li>
+    </ul>
+  </div>
+  <div class="nb">
+    <div class="row"><span><b>Developer, Flutter &amp; Android</b> · <span class="co">Matsio Digital</span></span><span class="d">2022 – 2023 · Trivandrum</span></div>
+    <ul>
+      <li>Turned client requirements into functional specifications and test plans with PMs and the team.</li>
+      <li>Introduced the MVVM pattern for better scalability and maintainability.</li>
+      <li>Debugged and stabilised existing systems; evaluated and recommended new technology.</li>
+    </ul>
+  </div>
+  <div class="nb">
+    <div class="row"><span><b>Flutter Intern</b> · <span class="co">Zoople Technologies</span></span><span class="d">2021 · Kochi</span></div>
+    <ul>
+      <li>Designed object-oriented solutions for application projects and reviewed code for defects.</li>
+      <li>Mentored junior developers on coding best practices and debugging.</li>
+    </ul>
+  </div>
+
+  <h2>Key Projects</h2>
+  <div class="proj nb"><b>Truckbookers — Customer &amp; Driver apps</b> <i>Flutter, Dart, Firebase, Google Maps, Stripe, BLoC</i>
+    <ul>
+      <li>Built a two-sided logistics platform for instant and scheduled truck trips with automatic driver assignment and a Pool/Staff driver model.</li>
+      <li>Implemented background location tracking (incl. “Always Allow”) that streams to the server even when the app is closed, giving customers live trip tracking.</li>
+      <li>Added push notifications, trip status updates and Stripe payments.</li>
+    </ul>
+  </div>
+  <div class="proj nb"><b>Shopprix — Grocery e-commerce &amp; Delivery Partner app</b> <i>Flutter, BLoC, Firebase, FCM, Google Maps, REST</i>
+    <ul>
+      <li>Delivered browse, cart and checkout flows backed by REST APIs; <b>+40% checkout conversion</b> and <b>95%+ crash-free sessions</b>.</li>
+    </ul>
+  </div>
+  <div class="proj nb"><b>GFM</b> — field-sales app (check-in/out, visit notes, voice and image uploads, on-site quotations). <i>Flutter, Bloc/Cubit, REST</i></div>
+  <div class="proj nb"><b>GG Centro</b> — B2B pipeline from pre-enquiry and quotation to purchase order. <i>Flutter, REST</i></div>
+  <div class="proj nb"><b>Engaged</b> — workforce management with location-based attendance and tasks. <i>Flutter, Bloc/Cubit</i></div>
+  <div class="proj nb"><b>Discipl</b> — fitness plans with cashback rewards from partner vendors. <i>Flutter, Firebase</i></div>
+  <div class="proj nb"><b>Web:</b> ABC Spacery (React, Next.js, Tailwind — deployed); SMIKTECK corporate site and Transight platform (in development).</div>
+
+  <h2>Skills</h2>
+  <div class="skills">
+    <div><b>Languages</b> Dart, Kotlin, Java, JavaScript, TypeScript, HTML &amp; CSS</div>
+    <div><b>Mobile</b> Flutter, Android, BLoC/Cubit, Provider, GetX, Stacked, MVVM, Clean Architecture</div>
+    <div><b>Web</b> React, Next.js, Tailwind CSS, Node.js</div>
+    <div><b>Backend &amp; data</b> Firebase (Auth, Firestore, Functions, FCM), REST, SOAP, SQLite, Hive</div>
+    <div><b>Integrations</b> Google Maps, Stripe, PayPal, Google Pay, Paytm, PhonePe, Gemini API, Google/Apple Sign-In</div>
+    <div><b>Release &amp; quality</b> Shorebird OTA, Crashlytics, Sentry, Firebase Analytics, Flutter DevTools, unit testing, VAPT</div>
+    <div><b>Tools</b> Git, SVN, Android Studio, VS Code, Xcode, Postman, Figma · Agile · App Store / Play Store deployment</div>
+  </div>
+
+  <h2>Achievements</h2>
+  <ul>
+    <li>Led 15+ production apps to a 4.5★ average rating.</li>
+    <li>+40% e-commerce checkout conversion and 95%+ crash-free sessions after launch.</li>
+    <li>15% performance improvement from profiling and optimisation.</li>
+  </ul>
+
+  <h2>Languages</h2>
+  <p>English · Malayalam · Hindi · Tamil</p>
+</div>
+</body>
+</html>
